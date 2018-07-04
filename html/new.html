@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Narey</title>
+	<!--linking style.css-->
+	<link rel="stylesheet" href="style.css">
+	<!--for all accepthe keys-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700i&amp;subset=greek,greek-ext" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/font.css">
+	<style>/*internal css*/
+	div .gallery{
+		margin: 5px;
+		border: 1px solid #ccc;
+		float: left;
+		width: 180px;
+	}
+	div .gallery:hover{
+		border: 1px solid #777;
+	}
+	div .gallery img {
+		width: 100%;
+		height: 200px;
+	}
+	/*for menu */
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333333;
+		}
+		li{
+           float:left;
+		}
+		li a {
+			display: block;
+			color: white;
+			font-family: 'Comic Sans MS';
+			text-align: center;
+			padding: 16px;
+			text-decoration: none;
+		}
+		li a: hover {
+			background-color: #111111; 
+		}
+		#p01{
+			color: red;
+			font-family: courier;
+			font-size: 150%;
+		}
+		.city{
+			background-color: red;
+			color: black;
+			padding: 5px;
+		}
+		/*h1 {
+			color: blue;
+			font-family: verdana;
+			font-size: 300%;
+		}
+		p{
+			color: grey;
+			font-family: courier;
+			font-size: 160%;
+		}*/
+		a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: brown;
+    background-color: transparent;
+    text-decoration: underline;
+}/*for form*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: red;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: red;
+    padding: 20px;
+}
+	</style>
+	<script>
+		function myfunction(){
+			document.getElementById("demo").innerHTML="Hello";
+			 document.getElementById("demo").style.fontSize = "25px"; 
+             document.getElementById("demo").style.color = "red";
+             document.getElementById("demo").style.backgroundColor = "white";   
+		}
+	</script>
+</head>
+<div style="background-color: black;color: white;padding: 15px;">
+<body style="background-color:powderblue;">
+	<!--<p style="background-color: grey; border: 2px solid tomato;">-->
+<hr>
+<marquee behaviour="alternate"><h1 style="text-align: center;">-BOUDHANATH-</h1></marquee>
+<hr>
+<!--</p>-->
+<ul><!--menu-->
+	<li><a href="#home">Home</a></li>
+	<li><a href="#news">News</a></li>
+	<li><a href="#contact">Contact</a></li>
+	<li><a href="#about">About</a></li>
+</ul><br>
+    <a href="https://www.facebook.com">Facebook</a><!--linking facebook-->
+	<a href="https://www.googlemail.com">Email</a>
+	<br>
+	<div>
+		<fieldset>
+	<div class="gallery">
+		<a target="_blank" href="images/b1.jpg">
+			<img src="images/b1.jpg" alt="Boudhanath" width="300"
+			height="200">
+		</a>
+	</div>
+	<div class="gallery">
+		<a target="_blank" href="images/b2.jpg">
+			<img src="images/b2.jpg" alt="Boudhanath2" width="300"
+			height="200">
+		</a>
+	</div>
+	<div class="gallery">
+		<a target="_blank" href="images/b3.jpg">
+			<img src="images/b3.jpg" alt="Boudhanath3" width="300"
+			height="200">
+		</a>
+	</div>
+	<div class="gallery">
+		<a target="_blank" href="images/b4.jpg">
+			<img src="images/b4.jpg" alt="Boudhanath4" width="300"
+			height="200">
+		</a>
+	</div></fieldset>
+</div>
+
+	<br>
+	<!--<table>
+		<tr>
+<td rowspan="2"><a href="https://en.wikipedia.org/wiki/Boudhanath" target="wikipedia"><img title="boudha" src="images/b1.jpg" width="300px" height="600px" alt="Pic of stupa"></a></td>
+<td><a href="https://en.wikipedia.org/wiki/Boudhanath" target="wikipedia"><img title="boudha2" src="images/b10.jpg" width="300px" height="300px" alt="Pic of a stupa"></a></td>
+<td><a href="https://en.wikipedia.org/wiki/Boudhanath" target="wikipedia"><img title="boudha3" src="images/b6.jpg" width="300px" height="300px" alt="Pic of a stupa"></a></td>
+<td rowspan="2"><a href="https://en.wikipedia.org/wiki/Boudhanath" target="wikipedia"><img title="boudha4" src="images/b5.jpg" width="300px" height="600px" alt="Pic of a stupa"></a></td></tr>
+<tr>
+	<td><a href="https://en.wikipedia.org/wiki/Boudhanath" target="wikipedia"><img title="boudha5" src="images/b5.jpg" width="300px" height="300px" alt="Pic of stupa"></a></td>
+		<td><a href="https://en.wikipedia.org/wiki/Boudhanath" target="wikipedia"><img title="boudha7" src="images/b8.jpg" width="300px" height="300px" alt="Pic of stupa"></a></td>
+		
+		</tr>
+</table>-->
+<hr>
+<span style="color: red;"><cite>Pic of stupa</cite></span> is here.<br>
+<h2 class="city">First</h2>
+ <address id="news" style="text-align:left;">
+	<p><a href="#01">jump to third paragraph</a><br></p>
+<p id="demo">	Boudhanath (Nepali: बौद्धनाथ, also called the Khāsa Caitya, Newari Khāsti, Standard Tibetan Jarung Khashor, Wylie: bya rung kha shor) is a stupa in Kathmandu, Nepal.[2] Located about 11 km (6.8 mi) from the center and northeastern outskirts of Kathmandu, the stupa's massive mandala makes it one of the largest spherical stupas in Nepal.
+</p>
+<button type="button" onclick="myfunction()">CLICK</button>
+<h3 class="city">Second</h3>
+<p>
+<blockquote cite="https://www.worldwildlife.org">
+The Buddhist stupa of Boudhanath dominates the skyline; it is one of the largest stupas in the world. The influx of large populations of refugees from Tibet has seen the construction of over 50 gompas (Tibetan convent) around Boudhanath.<strong> As of 1979, Boudhanath is a UNESCO World Heritage Site.</strong> Along with Swayambhu, it is one of the most popular tourist sites in the Kathmandu area.<br>
+</blockquote></p>
+ <address id="about" style="text-align:left;">
+<h4 class="city" id="01">Third</h4>
+<p id="p01" style="display: none;">
+The Stupa is on the ancient trade route from Tibet which enters the Kathmandu Valley by the village of Sankhu in the northeast corner, passes by Boudnath Stupa to the ancient and smaller stupa of Cā-bahī (often called "Little Boudhanath"). It then turns directly south, heading over the Bagmati River to Lalitpur - thus bypassing the main city of Kathmandu (which was a later foundation).[2] Tibetan merchants have rested and offered prayers here for many centuries. When refugees entered Nepal from Tibet in the 1950s, many decided to live around Boudhanath. The Stupa is said to entomb the remains of Kassapa Buddha.<br>
+<hr>
+ </p>
+ <button type="button" onclick="document.getElementById('p01').style.display='block'">CLICK!</button>
+<h5 class="city">Fourth</h5>
+ <p id="big">
+After the completion of the construction of Boudha stupa, Tajibu prayed very devoutly to become the king of the northern region to disseminate the religion. He was the chakravartin, Trisong Detsen of the Tibetan Empire in his next life. Phagjibu wished to be a scholar to disseminate the religion, and he became Bodhisattva Śāntarakṣita, an enlightened teacher in Tibet in the next life. Khyijibu was incarnated as the enlightened Padmasambhava on Ashadha Dashain in Oḍḍiyāna, (Skt. Oḍḍiyāna; Tibetan: Urgyen, Wylie: u rgyan), in the southwest area, at Dhanakosha Lake. He suppressed the Demons who were barriers to the religion and conserved and protected the religion from the Demonic attacks. Jyajibu prayed to be a minister for the protection of religion in the north, and as an answer to his prayer he was born at Tibet and became the minister Bami Trizher (Tibetan: Wylie: sba mi khri bzher).
+</p>
+<button type="button" onclick="document.getElementById('big').style.fontSize='25px'">CLICK!</button>
+
+<h3 style="color: red;">Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="nepal">Nepal</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<div>
+<iframe width="300" height="200" style="align-content: center;" src="https://www.youtube.com/embed/VQu_DZ6f8Qo" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
+<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Date and Time</button>
+<p id="demo"></p>
+ <address id="contact" style="text-align:left;">
+ 	written by <mark>Parin Limbu</mark>.<br>
+ 	Meet us at:Boudha Gate<br>
+    limbooparin@gmail.com<br>
+    Ratopul,Kathmandu.<br>
+    NEPAL<br>
+ </address>
+ </div>
+
+
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+ 
+</body>
+</html>

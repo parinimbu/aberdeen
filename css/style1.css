@@ -1,0 +1,48 @@
+h1{
+	color: rgb(200,200,200);
+	text-align: center;
+	padding: 50px;
+}
+p{
+	color: rgb(150,200,100);
+	background-color: rgb(50,50,0);
+}
+h1{
+    background-image: url("images/n6.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+ul{
+   list-style-type: none;
+   margin: 10px;
+   padding: 10px;
+   overflow: hidden;
+   background-color: #333333;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: #00ffdd;
+	font-family: 'Comic Sans MS';
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+}
+li a : hover {
+	background-color: #111111;
+}
+a:visited {
+    color: #ff0000;
+}
+
+/* mouse over link */
+a:hover {
+    color: #00ff00;
+}
+
+/* selected link */
+a:active {
+    color: #e5e5e5;
+}
